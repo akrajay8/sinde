@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(to right, #E9967A, #f0f9ff);
+      background: linear-gradient(to right, #cbe9ff, #f0f9ff);
       color: #333;
       padding: 20px;
       text-align: center;
@@ -63,10 +63,10 @@
       width: 40%;
     }
     tr:nth-child(odd) {
-      background-color: #FFFAF0;
+      background-color: #f1f9ff;
     }
     tr:nth-child(even) {
-      background-color: #FFFAF0;
+      background-color: #e6f7ff;
     }
     .not-found {
       color: red;
@@ -94,7 +94,7 @@
         } else {
           const link = "https://drive.google.com/file/d/" + d.linkId + "/view";
           div.innerHTML = `
-            <h2>📄 Detail Tata Naskah Dinas</h2>
+            <h2>📄 Detail Surat Keluar</h2>
             <table>
               <tr><td class="label">Nomor</td><td>${d.nomor}</td></tr>
               <tr><td class="label">Tanggal</td><td>${d.tanggal}</td></tr>
@@ -104,7 +104,7 @@
               <tr><td class="label">Perihal</td><td>${d.perihal}</td></tr>
               <tr><td class="label">Status Tandatangan</td><td>${d.status}</td></tr>
             </table>
-            <a class="download-btn" href="${link}" target="_blank">⬇️ UNDUH DOKUMEN</a>
+            <a class="download-btn" href="${link}" target="_blank">⬇️ UNDUH SURAT</a>
           `;
         }
       })
