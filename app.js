@@ -1,4 +1,4 @@
-const loginData = { username: "admin", password: "20522549" };
+const loginData = { username: "admin", password: "SekamESBATU" };
 const form = document.getElementById("suratForm");
 const tbody = document.querySelector("#suratTable tbody");
 let dataSurat = JSON.parse(localStorage.getItem("suratKeluar")) || [];
